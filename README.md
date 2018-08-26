@@ -14,6 +14,7 @@ Boilerplate for Rails api.
 $ git clone git@github.com:ebkn/rails-api-boilerplate
 $ cd rails-api-boilerplate
 $ bundle install --path vendor/bundle
+$ cp config/database.sample.yml config/database.yml
 $ bundle exec rails db:setup
 $ bundle exec rails s
 ```
