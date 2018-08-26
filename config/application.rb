@@ -41,5 +41,13 @@ module RailsApiBoilerplate
       g.test_frameword :rspec
       g.fixture_replacement :factory_bot, dir: 'spec/factories'
     end
+
+    config.after_initialize do
+      # bullet
+      Bullet.enable = true
+      Bullet.bullet_logger = true
+      Bullet.console = true
+      Bullet.add_footer = false
+    end
   end
 end
