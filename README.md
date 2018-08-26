@@ -1,6 +1,6 @@
 # Rails API boilerplate
 
-!https://travis-ci.com/ebkn/rails-api-boilerplate.svg?branch=master!:https://travis-ci.com/ebkn/rails-api-boilerplate
+[![Build Status](https://travis-ci.com/ebkn/rails-api-boilerplate.svg?branch=master)](https://travis-ci.com/ebkn/rails-api-boilerplate)
 
 Boilerplate for Rails api.
 
