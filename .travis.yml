@@ -3,9 +3,6 @@ language: ruby
 services:
   - mysql
 
-before_install:
-  - mysql -e 'CREATE DATABASE IF NOT EXISTS rails-api-boilerplate_test;'
-
 bundler_args: --without production
 
 before_script:
