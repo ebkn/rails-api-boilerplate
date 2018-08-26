@@ -6,7 +6,7 @@ Boilerplate for Rails api.
 
 ## Dependencies
 - ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17]
-- Rails 5.2.0
+- Rails 5.2.1
 - MySQL 5.7
 
 ### Usage
