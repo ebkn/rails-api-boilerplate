@@ -10,6 +10,8 @@ gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
 # cache for server
 gem 'bootsnap', '>= 1.1.0', require: false
+# manage secrets
+gem 'dotenv-rails'
 
 group :development, :test do
   # debug
