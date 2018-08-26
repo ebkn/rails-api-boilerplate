@@ -21,3 +21,6 @@
 
 # Ignore coverage
 /coverage
+
+# Ignore database.yml
+config/database.yml
