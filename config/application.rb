@@ -31,5 +31,15 @@ module RailsApiBoilerplate
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # time zone
+    config.time_zone = 'Asia/Tokyo'
+
+    # generator settings
+    config.generators do |g|
+      g.helper false
+      g.test_frameword :rspec
+      g.fixture_replacement :factory_bot, dir: 'spec/factories'
+    end
   end
 end
