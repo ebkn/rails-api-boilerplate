@@ -7,7 +7,7 @@ gem 'rails', '~> 5.2.2'
 
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # web server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # cache for server
 gem 'bootsnap', '>= 1.1.0', require: false
 # manage secrets
